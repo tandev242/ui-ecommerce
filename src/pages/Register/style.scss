@@ -1,0 +1,49 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+            center;
+    background-size: cover;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 40%;
+        align-items: center;
+        background-color: white;
+        .title {
+            font-weight: 400;
+        }
+
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            input {
+                min-width: 40%;
+                flex: 1;
+                padding: 10px;
+                margin: 20px 10px 0 0;
+            }
+
+            span{
+                margin: 20px 0;
+                font-size: 12px;
+            }
+            button {
+                background-color: teal;
+                color:white;
+                font-size: 15px;
+                border: none;
+                padding: 15px;
+                width: 40%;
+            }
+        }
+    }
+}

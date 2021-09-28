@@ -1,0 +1,22 @@
+.product-list-page{
+    &__title{
+        font-size:30px;
+        margin: 20px;
+    }
+    &__filter{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        .item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >*{
+                margin-right: 20px;
+            }
+            select{
+                padding: 10px;
+            }
+        }
+    }
+}
